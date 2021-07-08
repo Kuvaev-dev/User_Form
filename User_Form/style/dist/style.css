@@ -1,0 +1,89 @@
+#avatar {
+  float: right;
+}
+
+.content {
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.header {
+  background-color: #7B77BF;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header .header_img {
+  max-width: 50px;
+  max-height: 50px;
+  background-color: #7B77BF;
+}
+.header .header_txt {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.top {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.top .top_header {
+  margin-left: 45%;
+  font-size: 30px;
+  font: bold;
+  color: #030101;
+}
+
+.form, .panel {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: stretch;
+}
+
+button {
+  color: #fff;
+  background-color: #606A70;
+  max-width: 125px;
+  min-width: 125px;
+  max-height: 30px;
+  min-height: 30px;
+  min-width: 175px;
+}
+
+.panel {
+  background-color: #5FAFE1;
+}
+.panel .panel_txt {
+  margin-left: 15%;
+  font-size: 20px;
+  font: bold;
+  color: #fff;
+}
+
+.form .form_photo {
+  margin-left: 12%;
+}
+.form .form_photo .avatar {
+  max-width: 150px;
+  max-height: 150px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form .form_info {
+  margin-left: 9%;
+}
+.form .form_pass {
+  margin-left: 15%;
+}
+
+.info_input {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #030101;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

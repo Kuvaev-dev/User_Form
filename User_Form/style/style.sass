@@ -1,0 +1,86 @@
+$color_white: #fff
+$color_blue: #7B77BF
+$color_green: #77BF85
+$color_red: #BF7777
+$color_black: #030101
+$color_white_blue: #5FAFE1
+$color_grey: #606A70
+
+#avatar
+   float: right
+
+.content
+   margin-right: 5%
+   margin-left: 5% 
+.header
+   background-color: $color_blue  
+   padding-top: 10px
+   padding-bottom: 15px
+   padding-left: 20px
+   padding-right: 20px
+
+   .header_img
+      max-width: 50px
+      max-height: 50px
+      background-color: $color_blue 
+   .header_txt
+      margin-left: 10px
+      margin-right: 10px
+      color: $color_white
+.top
+   margin-left: 5%
+   margin-right: 5%
+   .top_header
+      margin-left: 45%
+      font-size: 30px
+      font: bold
+      color: $color_black
+
+%flex_row_start
+   display: flex
+   flex-direction: row
+   flex-wrap: nowrap
+   justify-content: start
+   align-items: stretch
+
+%btn_style
+   color: #fff
+   background-color: $color_grey
+   max-width: 125px
+   min-width: 125px
+   max-height: 30px
+   min-height: 30px
+   min-width: 175px
+
+.panel 
+   background-color: $color_white_blue
+   @extend %flex_row_start
+   .panel_txt 
+      margin-left: 15%    
+      font-size: 20px
+      font: bold
+      color: $color_blue
+
+.form
+   @extend %flex_row_start
+   .form_photo
+      margin-left: 12%
+      .avatar
+         max-width: 150px
+         max-height: 150px
+         margin-top: 10px
+         margin-bottom: 10px             
+   .form_info
+      margin-left: 9%
+   .form_pass
+      margin-left: 15%
+   
+.info_input  
+   border-width: 1px
+   border-style: solid
+   border-color: $color_black
+   margin-top: 10px
+   margin-bottom: 10px
+button
+   @extend %btn_style
+         
